@@ -27,6 +27,6 @@ Because of file size constraints,the pfamseq table must be loaded from
 multiple files.  The table can first be created using pfamseq.sql, and
 then populated using the commands:
 
-`load data local infile "pfamseq.txt.part_aa" into table pfamseq;
+```load data local infile "pfamseq.txt.part_aa" into table pfamseq;
 load data local infile "pfamseq.txt.part_ab" into table pfamseq;
-load data local infile "pfamseq.txt.part_ac" into table pfamseq;`
+load data local infile "pfamseq.txt.part_ac" into table pfamseq;```
