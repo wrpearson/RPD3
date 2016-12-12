@@ -28,6 +28,7 @@ multiple files.  The table can first be created using pfamseq.sql, and
 then populated using the commands:
 
 ```
+mysql -h host -u user RPD3 < pfamseq.sql
 load data local infile "pfamseq.txt.part_aa" into table pfamseq;
 load data local infile "pfamseq.txt.part_ab" into table pfamseq;
 load data local infile "pfamseq.txt.part_ac" into table pfamseq;
